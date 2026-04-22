@@ -3049,6 +3049,9 @@ a {
 }
 
 @media (max-width: 768px) {
+    .last {
+        display: none;
+    }
     .pain-grid {
         grid-template-columns: 1fr;
         gap: 16px;
